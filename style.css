@@ -164,6 +164,18 @@ header h2,
   font-size: 0.8rem;
 }
 
+@media (max-width: 600px) {
+  .project-info h3 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-info .tag-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
 .tag.unity {
   background-color: rgba(0, 123, 255, 0.5);
 }
@@ -318,6 +330,12 @@ header h2,
   pointer-events: none;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .art-3d-modelling .art-columns {
+    flex-direction: column;
+  }
 }
 
 h2 {
