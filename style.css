@@ -80,6 +80,14 @@ header h2,
   }
 }
 
+@media (max-width: 600px) {
+  .intro-text p {
+    flex: unset !important;
+    font-size: 1.4rem;
+    padding: 0 20px;
+  }
+}
+
 .middle-image-section {
   text-align: center;
   margin: 30px 0 124px 0;
