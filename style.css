@@ -165,14 +165,16 @@ header h2,
 }
 
 @media (max-width: 600px) {
-  .project-info h3 {
+  .project-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; /* or center if you want centered tags */
   }
 
-  .project-info .tag-container {
-    justify-content: flex-start;
+  .project-header .tag-container {
+    justify-content: flex-start; /* or center */
     flex-wrap: wrap;
+    display: flex;
+    gap: 8px;
   }
 }
 
